@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Noir - Modern Portfolio Template">
+    <meta name="keywords" content="personal, portfolio new, html, one page, bootstrap, new html template, design, creative, onepage, clean, modern">
+    <meta name="author" content="Tanvir Hossain">
+    <!-- PAGE TITLE -->
+    <title>Noir - Modern Portfolio Template</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <!-- ALL GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css" />
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/fonts/remixicon.css" />
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- NICE SELECT CSS -->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css" />
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- MOBILE MENU CSS -->
+    <link rel="stylesheet" href="assets/css/mobilemenu.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
+    <!-- SPACING CSS -->
+    <link rel="stylesheet" href="assets/css/spacing.css" />
+    <link rel="stylesheet" href="assets/css/blog.css" />
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- START PRELOADER AREA-->
+    <div class="preloader">
+        <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <div class="preloader-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+    <!-- END PRELOADER AREA -->
+    <!-- START SCROOL UP DESIGN AREA -->
+    <div class="progress-wrap cursor-pointer">
+        <i class="ri-arrow-up-s-line"></i>
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- / END SCROOL UP DESIGN AREA -->
+    <!-- START MAGIC CURSOR AND BALL AREA-->
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <!-- / END MAGIC CURSOR AND BALL AREA-->
+    <!-- START MENU DESIGN AREA-->
+    <header class="main-header">
+        <div class="header-upper">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-6 col-sm-3">
+                            <div class="logo-area">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6 col-6 col-sm-9">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul class="onepage">
+                                        <li><a href="index.html" class="linkstyle">Home</a></li>
+                                        <li><a href="#services" class="linkstyle">services</a></li>
+                                        <li><a href="#projects" class="linkstyle">Projects</a></li>
+                                        <li><a href="#about" class="linkstyle">about</a></li>
+                                        <li><a href="#contact" class="linkstyle">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="side-menu-icon d-lg-none text-end">
+                                <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i class="fal fa-bars"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- // END MENU DESIGN AREA-->
+    <!-- START MOBILE MENU DESIGN AREA-->
+    <div class="sidebar__area">
+        <div class="sidebar__wrapper">
+            <div class="sidebar__close">
+                <button class="sidebar__close-btn" id="sidebar__close-btn">
+                    <i class="fal fa-times"></i>
+                </button>
+            </div>
+            <div class="sidebar__content mt-50 mb-20">
+                <div class="mobile-menu fix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="body-overlay"></div>
+    <!-- // END MOBILE MENU DESIGN AREA-->
+    <!-- START HEADER DESIGN AREA -->
+    <section id="home" class="main-hero-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- START HERO DESIGN AREA -->
+                    <div class="hero-content wow fadeInUp text-center delay-0-2s">
+                        <img src="assets/images/about/Me-1 web.webp" alt="">
+                        <h2>Freelance <br> Visual Designer</h2>
+                        <p>Hi, I’m Ifnaf Ariyan — a passionate graphic designer with a keen eye for visual storytelling.</p>
+                        <a class="theme-btn" href="#contact">Get In touch</a>
+                    </div>
+                    <!-- / END HERO DESIGN AREA -->
+                    <div class="company-list">
+                        <div class="scroller" data-direction="left" data-speed="slow">
+                            <div class="scroller__inner">
+                                <img src="assets/images/client-logos/razer.png" alt="Company" />
+                                <img src="https://ik.imagekit.io/k91mayacpq/hetzner.png?updatedAt=1750811820596" alt="Company" />
+                                <img src="https://ik.imagekit.io/k91mayacpq/amazon.png?updatedAt=1750811820990" alt="Company" />
+                                <img src="https://ik.imagekit.io/k91mayacpq/pandora.png?updatedAt=1750811821060" alt="Company" />
+                                <img src="https://ik.imagekit.io/k91mayacpq/bridgestone.png?updatedAt=1750811821029" alt="Company" />
+                                <img src="https://ik.imagekit.io/k91mayacpq/orilame.png?updatedAt=1750811820696" alt="Company" />
+                                <img src="https://ik.imagekit.io/k91mayacpq/henge.png?updatedAt=1750811820968" alt="Company" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END HEADER DESIGN AREA -->
+    <!-- START SERVICE DESIGN AREA -->
+    <section id="services" class="services-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-title section-black-title wow fadeInUp delay-0-2s">
+                        <h2>Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-lg-8 col-md-7">
+                    <div class="service-item wow fadeInUp delay-0-2s">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <h5>01</h5>
+                        <h4>Video Editor/Content Creator</h4>
+                        <p>Creative video editing that transforms raw footage into engaging, polished stories. Attention to detail and smooth cuts bring every vision to life.</p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-lg-4 col-md-5">
+                    <div class="service-item wow fadeInUp delay-0-4s">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <h5>02</h5>
+                        <h4>Visual Design</h4>
+                        <p>Creative visual design that brings ideas to life with impactful.</p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-lg-4 col-md-5">
+                    <div class="service-item wow fadeInUp delay-0-6s">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <h5>03</h5>
+                        <h4>UI/UX Designer</h4>
+                        <p>User-focused UI/UX design creating intuitive, digital experiences.</p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-lg-8 col-md-7">
+                    <div class="service-item wow fadeInUp delay-0-8s">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <h5>04</h5>
+                        <h4>Thumbnail Desinger</h4>
+                        <p>Eye-catching thumbnail design that grabs attention and boosts clicks. Combining bold visuals and clear messaging to make content stand out.</p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END SERVICE DESIGN AREA -->
+    <!-- START PORTFOLIO DESIGN AREA -->
+    <div class="projects-area" id="projects">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12">
+                <div class="section-title section-white-title wow fadeInUp delay-0-2s text-center">
+                    <h2>Recent Work</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row g-4 portfolio-grid">
+                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                <div class="col-md-6 col-xl-6 portfolio-item category-1">
+                    <a href="https://ik.imagekit.io/k91mayacpq/cash-and-cow.webp?updatedAt=1750812583492" class="work-popup">
+                        <div class="portfolio-box">
+                            <!-- Image -->
+                            <img src="https://ik.imagekit.io/k91mayacpq/cash-and-cow.webp?updatedAt=1750812583492" alt="" data-rjs="2">
+                            <!-- Category -->
+                            <span class="portfolio-category">Cash And cow</span>
+                            <!-- Caption -->
+                            <div class="portfolio-caption">
+                                <h1>Iman Gadzhi Style</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
+                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                <div class="col-md-6 col-xl-6 portfolio-item category-1">
+                    <a href="https://ik.imagekit.io/k91mayacpq/sinatraa.webp?updatedAt=1750809771160" class="work-popup">
+                        <div class="portfolio-box">
+                            <!-- Image -->
+                            <img src="https://ik.imagekit.io/k91mayacpq/sinatraa.webp?updatedAt=1750809771160" alt="" data-rjs="2">
+                            <!-- Category -->
+                            <span class="portfolio-category">Youtube Thumbnail</span>
+                            <!-- Caption -->
+                            <div class="portfolio-caption">
+                                <h1>Marvel Rivel Gaming</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
+                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                <div class="col-md-6 col-xl-6 portfolio-item category-3">
+                    <a href="https://ik.imagekit.io/k91mayacpq/cover-1.webp?updatedAt=1750810115289" class="work-popup">
+                        <div class="portfolio-box">
+                            <!-- Image -->
+                            <img src="https://ik.imagekit.io/k91mayacpq/cover-1.webp?updatedAt=1750810115289" alt="" data-rjs="2">
+                            <!-- Category -->
+                            <span class="portfolio-category">Ads Design</span>
+                            <!-- Caption -->
+                            <div class="portfolio-caption">
+                                <h1>Social Ads Creative</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
+                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                <div class="col-md-6 col-xl-6 portfolio-item category-4">
+                    <a href="https://ik.imagekit.io/k91mayacpq/caroussel-1_.webp?updatedAt=1738746110737" class="work-popup">
+                        <div class="portfolio-box">
+                            <!-- Image -->
+                            <img src="https://ik.imagekit.io/k91mayacpq/caroussel-1_.webp?updatedAt=1738746110737" alt="" data-rjs="2">
+                            <!-- Category -->
+                            <span class="portfolio-category">Caroussel</span>
+                            <!-- Caption -->
+                            <div class="portfolio-caption">
+                                <h1>Caroussel Desgin For instagram</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
+                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                <div class="col-md-6 col-xl-6 portfolio-item category-5">
+                    <a href="https://ik.imagekit.io/k91mayacpq/SERVERS.webp?updatedAt=1750810202363" class="work-popup">
+                        <div class="portfolio-box">
+                            <!-- Image -->
+                            <img src="https://ik.imagekit.io/k91mayacpq/SERVERS.webp?updatedAt=1750810202363" alt="" data-rjs="2">
+                            <!-- Category -->
+                            <span class="portfolio-category">Social Media Ads</span>
+                            <!-- Caption -->
+                            <div class="portfolio-caption">
+                                <h1> Hosting/server Design </h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
+                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                <div class="col-md-6 col-xl-6 portfolio-item category-6">
+                    <a href="https://ik.imagekit.io/k91mayacpq/ramadan-kareem%20.webp?updatedAt=1750810242616" class="work-popup">
+                        <div class="portfolio-box">
+                            <!-- Image -->
+                            <img src="https://ik.imagekit.io/k91mayacpq/ramadan-kareem%20.webp?updatedAt=1750810242616" alt="" data-rjs="2">
+                            <!-- Category -->
+                            <span class="portfolio-category">Social Media Post</span>
+                            <!-- Caption -->
+                            <div class="portfolio-caption">
+                                <h1>Ramadan Theme</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
+                 <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                <div class="col-md-6 col-xl-6 portfolio-item category-7">
+                    <a href="https://ik.imagekit.io/k91mayacpq/menipulation%20.webp?updatedAt=1750810331801" class="work-popup">
+                        <div class="portfolio-box">
+                            <!-- Image -->
+                            <img src="https://ik.imagekit.io/k91mayacpq/menipulation%20.webp?updatedAt=1750810331801" alt="" data-rjs="2">
+                            <!-- Category -->
+                            <span class="portfolio-category">Product</span>
+                            <!-- Caption -->
+                            <div class="portfolio-caption">
+                                <h1>Serum Product Design</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
+                  <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                <div class="col-md-6 col-xl-6 portfolio-item category-8">
+                    <a href="https://ik.imagekit.io/k91mayacpq/freme-6%20webp?updatedAt=1750810378793" class="work-popup">
+                        <div class="portfolio-box">
+                            <!-- Image -->
+                            <img src="https://ik.imagekit.io/k91mayacpq/freme-6%20webp?updatedAt=1750810378793" alt="" data-rjs="2">
+                            <!-- Category -->
+                            <span class="portfolio-category">Social Media Post</span>
+                            <!-- Caption -->
+                            <div class="portfolio-caption">
+                                <h1>Bus Simulator Bd</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
+            </div>
+        </div>
+    </div>
+    <!-- // END PORTFOLIO DESIGN AREA -->
+    <!-- START TESTIMONIALS DESIGN AREA -->
+    <section class="testimonials-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-title section-black-title wow fadeInUp delay-0-2s">
+                        <h2>Testinomials</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <!-- START SINGLE TESTIMONIALS DESIGN AREA -->
+                    <div class="testimonial-item wow fadeInUp delay-0-2s">
+                        <div class="text">
+                            Absolutely loved the design work! Professional, fast, and exceeded our expectations. Will definitely work together again.
+                        </div>
+                        <div class="author">
+                            <img src="https://ik.imagekit.io/k91mayacpq/client%203.webp?updatedAt=1750810663730" alt="Author" />
+                        </div>
+                        <div class="testi-des">
+                            <h5>John Smith</h5>
+                            <span>Smith Creative Agency</span>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE TESTIMONIALS DESIGN AREA -->
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <!-- START SINGLE TESTIMONIALS DESIGN AREA -->
+                    <div class="testimonial-item wow fadeInUp delay-0-4s">
+                        <div class="text">
+                        Brilliant design work with an eye for detail. Communication was smooth and professional throughout. Definitely working together again soon!”
+                        </div>
+                        <div class="author">
+                            <img src="https://ik.imagekit.io/k91mayacpq/client%204.webp?updatedAt=1750810663709" alt="Author" />
+                        </div>
+                        <div class="testi-des">
+                            <h5>Sarah Ahmed</h5>
+                            <span>Luxe Layers Studio</span>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE TESTIMONIALS DESIGN AREA -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!-- START SINGLE TESTIMONIALS DESIGN AREA -->
+                    <div class="testimonial-item wow fadeInUp delay-0-6s">
+                        <div class="text">
+                            Delivered exactly what we needed, and fast! Creative ideas and clean execution every time. Highly impressed with the results.
+                        </div>
+                        <div class="author">
+                            <img src="https://ik.imagekit.io/k91mayacpq/client%202.webp?updatedAt=1750810663685" alt="Author" />
+                        </div>
+                        <div class="testi-des">
+                            <h5>Jason Lim</h5>
+                            <span>VibeCore Agency</span>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE TESTIMONIALS DESIGN AREA -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!-- START SINGLE TESTIMONIALS DESIGN AREA -->
+                    <div class="testimonial-item wow fadeInUp delay-0-8s">
+                        <div class="text">
+                            Stunning graphics and high-impact visuals. Understood the brief right away and nailed it. Highly reliable and skilled designer.
+                        </div>
+                        <div class="author">
+                            <img src="https://ik.imagekit.io/k91mayacpq/client%205.webp?updatedAt=1750810663468" alt="Author" />
+                        </div>
+                        <div class="testi-des">
+                            <h5>Tariq Hasan</h5>
+                            <span>Edge Gaming</span>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE TESTIMONIALS DESIGN AREA -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!-- START SINGLE TESTIMONIALS DESIGN AREA -->
+                    <div class="testimonial-item wow fadeInUp delay-0-9s">
+                        <div class="text">
+                            Understood the brief and nailed the look. Always delivers top-tier work on time. A reliable and talented designer.
+                        </div>
+                        <div class="author">
+                            <img src="https://ik.imagekit.io/k91mayacpq/client%201.webp?updatedAt=1750810663770" alt="Author" />
+                        </div>
+                        <div class="testi-des">
+                            <h5>Adnan Saeed</h5>
+                            <span>ClipHouse Media</span>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE TESTIMONIALS DESIGN AREA -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END TESTIMONIALS DESIGN AREA -->
+    <!-- START ABOUT DESIGN AREA -->
+    <section id="about" class="about-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-title section-white-title wow fadeInUp delay-0-2s">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- START ABOUT TEXT DESIGN AREA -->
+                <div class="col-lg-4 col-sm-12 about-image">
+                    <img src="assets/images/about/Me-1 web.webp" alt="">
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="about-content-part wow fadeInUp delay-0-2s">
+                        <p>Hi, I’m Ifnaf Ariyan, a creative professional skilled in video editing, visual design, and UI/UX, with a focus on crafting engaging and polished visuals. Passionate about blending creativity with functionality to deliver impactful, user-friendly experiences while continuously growing.</p>
+                    </div>
+                    <!-- START COUNTER DESIGN AREA -->
+                    <div class="hero-counter-area d-flex justify-content-between wow fadeInUp delay-0-4s">
+                        <div class="counter-item counter-text-wrap">
+                            <span class="count-text plus" data-speed="3000" data-stop="5">0</span>
+                            <span class="counter-title">Years Of Experience</span>
+                        </div>
+                        <div class="counter-item counter-text-wrap">
+                            <span class="count-text k-plus" data-speed="3000" data-stop="1">0</span>
+                            <span class="counter-title">Complete Projects</span>
+                        </div>
+                        <div class="counter-item counter-text-wrap">
+                            <span class="count-text percent" data-speed="3000" data-stop="90">0</span>
+                            <span class="counter-title">Client Satisfactions</span>
+                        </div>
+                    </div>
+                    <!-- / END COUNTER DESIGN AREA -->
+                </div>
+                <!-- / END ABOUT TEXT DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END ABOUT DESIGN AREA -->
+    <!-- START CONTACT DESIGN AREA -->
+    <section id="contact" class="contact-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-title section-black-title wow fadeInUp delay-0-2s">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-content-part  wow fadeInUp delay-0-2s">
+                        <img src="assets/images/about/Me-1 web.webp" alt="">
+                        <p> Are you ready?</p>
+                        <h2> Elevate Your Brand experience to the next level</h2>
+                        <p>Hi, I’m Ifnaf Ariyan, a passionate creative focused on crafting engaging and user-friendly digital experiences.</p>
+                        <!-- START CONTACT SINGLEDESIGN AREA -->
+                        <div class="single-contact wow fadeInUp" data-wow-delay=".6s">
+                            <div class="about-social">
+                                <ul>
+                                    <li><a href=""><i class="ri-facebook-circle-fill"></i></a></li>
+                                    <li><a href=""><i class="ri-twitter-x-line"></i></a></li>
+                                    <li><a href=""><i class="ri-linkedin-fill"></i></a></li>
+                                    <li><a href=""><i class="ri-github-line"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- / END CONTACT SINGLEDESIGN AREA -->
+                    </div>
+                </div>
+                <!-- START CONTACT FORM DESIGN AREA -->
+                <div class="col-lg-6">
+                    <div class="contact-form contact-form-area wow fadeInUp delay-0-4s">
+                        <form id="contactForm" class="contact-form" action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">Full Name</label>
+                                        <input type="text" id="name" class="form-control" value="" placeholder="Steve Milner" required="" data-error="Please enter your Name" />
+                                        <label for="name" class="for-icon"><i class="far fa-user"></i></label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" id="email" class="form-control" value="" placeholder="hello@webitename.com" required="" data-error="Please enter your Email" />
+                                        <label for="email" class="for-icon"><i class="far fa-envelope"></i></label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="name">Subject</label>
+                                        <input type="text" id="subject" class="form-control" value="" placeholder="Your Subject" required="" data-error="Please enter your Name" />
+                                        <label for="name" class="for-icon"><i class="far fa-user"></i></label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="message">Your Message</label>
+                                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Write Your message" required="" data-error="Please Write your Message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group mb-0">
+                                        <button type="submit" class="theme-btn">
+                                            Send Me Message <i class="ri-mail-line"></i>
+                                        </button>
+                                        <div id="msgSubmit" class="hidden"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <p class="input-success">We have received your mail, We will get back to you soon!</p>
+                                    <p class="input-error">Sorry, Message could not send! Please try again.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- / END CONTACT FORM DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END CONTACT DESIGN AREA -->
+    <!-- START FOOTER DESIGN AREA -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-top">
+                        <p> Have a project in mind?</p>
+                        <h2><a href="mailto:ifnaf.creative@gmail.com">ifnaf.creative.tk</a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <p class="copy-left-text"> <a href="https://themeforest.net/user/creativepersonal/portfolio">®</a></p>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <p class="copy-right-text">&copy; Copyright 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / END FOOTER DESIGN AREA -->
+    <!-- JQUERY JS -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- BOOTSTRAP JS-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- APPEAR JS -->
+    <script src="assets/js/appear.min.js"></script>
+    <!-- MAGNIFICANT JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- MOBILE MENU JS-->
+    <script src="assets/js/mobilemenu.js"></script>
+    <!-- GSAP AND LOCOMOTIV JS-->
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/lenis.js"></script>
+    <!-- SWIPPER JS-->
+    <script src="assets/js/swiper-bundle.js"></script>
+    <!-- NICE SELECT JS-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- IMAGE LOADER JS-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- ISOTOPE JS-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--  WOW ANIMATION JS-->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- SCRIPT JS-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
+
+<style>
+body, h1, h2, h3, h4, h5, h6 {
+     font-family: 'Poppins', sans-serif !important;
+   }
+</style>
